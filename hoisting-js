@@ -1,0 +1,72 @@
+//comapre X1 and X2
+//X1 --> 10/ 200/ 200
+// var a = 10;
+// function aFunction() {
+//     console.log(a);
+//     a = 200;
+// }
+// aFunction(); //10 (use global var: a=10)
+// aFunction();//200 (a get the new value of 200)
+// aFunction();//200 (a stays at the value of 200)
+
+// //X2 --> undefined
+// var a =10;
+// function aFunction() {
+//   console.log(a);
+//   var a=200; // declare a scope variable (200) for a, scope variable will be prioroty than global one.
+//             //but declare a after console.log
+//             // the a didnt receive the global variable (10) and scope var (200) also.--> undefined
+// }
+// aFunction();
+
+
+//
+// (function(){
+//     var foo = 1;
+//     (function(){
+//         console.log(foo);
+//         var foo = 2;
+//     })();
+//     console.log(foo);
+// })();
+
+
+
+
+//compare A1 and A2
+// A1 --> error
+// (function() {
+//   console.log(foo);
+// })()
+
+//A2 -> undefined
+// (function() {
+//   console.log(foo);
+//   var foo ="hello"; // hoist in js will declare the variable to the top.
+// })()
+
+//the code A2 above when compiling will be as below:
+/*
+(function(){
+var foo;
+console.log(foo);
+foo = "hello";
+})()
+*/
+
+
+// hoisting in fuction declaration and function expression
+(function(){
+  console.log(foo());
+  // expression function
+  //only the variable declaration will move to top when compiling.
+  var foo = function(){
+    return 1;
+  };
+  //declaration fuction
+  // all the function will be to top when compiling (hoisting will do)
+  //-> function will be run before declaration
+  function foo() {
+    return 2;
+  };
+})();
