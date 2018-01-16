@@ -1,3 +1,4 @@
+// add file to new-project
 let ArithGeo =(array) => {
 //Geometic
 if(array.length <=2){
@@ -26,7 +27,7 @@ let isArithmetic = function(array){
   };
   return true;
 };
-//check
+
 if(isGeometic(array)) return 'Geometric';
 else if(isArithmetic(array)) return 'Arithmetic';
 else  return -1;
