@@ -8,7 +8,7 @@ let arr = [ 'My', 'here', 'Minho', "hahah", "eeeee"];
 //   }
 // }
 // console.log(emptyA);
-
+//check new project
 
 //c2
 let sorted = arr.sort(function(a, b){
