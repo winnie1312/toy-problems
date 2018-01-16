@@ -17,5 +17,6 @@ function CountingMinuteI(str) {
     console.log(convertSecondHourToMin);
     let result = (convertFirstHourToMin === convertSecondHourToMin? 12: convertFirstHourToMin < convertSecondHourToMin? convertSecondHourToMin - convertFirstHourToMin: 24*60 - convertFirstHourToMin + convertSecondHourToMin);
     return result;
+    //check if it saved
 };
 console.log(CountingMinuteI("2:00pm-8:00am"));
