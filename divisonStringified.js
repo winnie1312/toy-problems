@@ -1,3 +1,8 @@
+//question: having function divisionStringified(num1, num2)
+//divide num1 by num2 and return the result as a string with properly formatted commas
+//if an answer is only 3 digits long, return the number with no commas.
+
+
 //c1
 function divisionStringified(num1, num2){
     let finalNum = num1/ num2;
