@@ -1,3 +1,7 @@
+// function AdditivePersistence, pass the number (always positive number) as parameter
+// return additive persistence which is the number of times you must add digits in number 
+// till you reach the single digit.
+
 function AdditivePersistence(num){
     let time = 0;
     function recursive(){
