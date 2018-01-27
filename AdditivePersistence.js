@@ -17,3 +17,6 @@ function AdditivePersistence(num){
     return time;
 };
 console.log(AdditivePersistence(99926753279899));
+    
+
+    

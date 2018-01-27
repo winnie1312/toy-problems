@@ -1,4 +1,4 @@
-function letterCount(str){
+function LetterCount(str){
     let arr = str.split(" ");
     console.log(arr);
 
@@ -34,4 +34,4 @@ function letterCount(str){
 
     console.log("table is: ", table);
 }
-console.log(letterCount("helo apple pie"));
+console.log(LetterCount("helo apple pie"));

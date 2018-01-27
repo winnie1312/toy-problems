@@ -1,4 +1,4 @@
-function letterCount(str){
+function LetterCount(str){
     let arr =str.split(" ")
     console.log("array is: ",arr);
     
@@ -36,4 +36,4 @@ function letterCount(str){
     return answer["count"]===1? -1: answer["word"];
 };
 
-console.log(letterCount("hello apple pie"));
+console.log(LetterCount("hello apple pie"));

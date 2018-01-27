@@ -1,4 +1,4 @@
-let ABCheck =(str)=> {
+let AbCheck =(str)=> {
   //c1 : match(/.../)--> return array
   return str.match(/[a](...)[b]|[b](...)[a]/gi) !== null;
 
@@ -8,7 +8,7 @@ let ABCheck =(str)=> {
   //c3: (/.../).test(str)--> return boolean
   //return (/(a...b|b...a)/gi).test(str);
 };
-console.log(ABCheck('my naBxyaabu'));
+console.log(AbCheck('my naBxyaabu'));
 
 
 // let AbCheck =(str) => {

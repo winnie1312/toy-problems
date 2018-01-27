@@ -4,7 +4,7 @@
 
 
 //c1
-function divisionStringified(num1, num2){
+function DivisionStringified(num1, num2){
     let finalNum = num1/ num2;
     let whole = Math.round(finalNum).toString();
     
@@ -18,14 +18,14 @@ function divisionStringified(num1, num2){
     }
     return result;
 };
-console.log(divisionStringified(532222,2));
+console.log(DivisionStringified(532222,2));
 
 //c2
-// function divisionStringified(num1, num2){
+// function DivisionStringified(num1, num2){
 //     let finalNum = num1/ num2;
 //     let result = Math.round(finalNum);
 //     return result.toLocaleString();
 // };
-// console.log(divisionStringified(50333,2));
+// console.log(DivisionStringified(50333,2));
 
 

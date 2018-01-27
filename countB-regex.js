@@ -12,8 +12,8 @@
 
 //c2 using regex
 
-let countBs2 = function(str2){
+let CountBs2 = function(str2){
   let result = str2.match(/['b']/gi).length;
   console.log(result);
 }
-countBs2("absdgdfgbbbbbbcsff")
+CountBs2("absdgdfgbbbbbbcsff")

@@ -5,7 +5,7 @@
 //(1) delete the duplicated elements to get unique array
 //(2) sort the array ascending order
 //(3) return result
-function secondGreatLow(arr){
+function SecondGreatLow(arr){
   //(1)
   let uniqueArr =arr.filter(function(element, index, arraySelf){return arraySelf.indexOf(element)===index});
   console.log(uniqueArr);
@@ -20,7 +20,7 @@ function secondGreatLow(arr){
     return newArr[1]+ " " + newArr[newArr.length-2];
   }
 };
-console.log(secondGreatLow([1,3,9, 8,5,7,4,3]));
+console.log(SecondGreatLow([1,3,9, 8,5,7,4,3]));
 
   
 //  //c2

@@ -1,4 +1,4 @@
-let func = (str) => {
+let Func = (str) => {
   let newstr = str.split('');
   for (let i = 0; i < newstr.length; i++) {
     const vowels =['a', 'o', 'i', 'u', 'e'].indexOf(newstr[i]) > -1;
@@ -8,4 +8,4 @@ let func = (str) => {
   }
   console.log(newstr.join(''));
 };
-func('abcde');
+Func('abcde');

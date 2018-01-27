@@ -1,4 +1,4 @@
-let checkVowel = (str) => {
+let CheckVowel = (str) => {
   let str1 = str.toLowerCase()
   let arr =str1.split('');
   console.log(`arr is ${arr}`);
@@ -14,4 +14,4 @@ let checkVowel = (str) => {
   console.log(count);
 }
 
-checkVowel('Sarng Uri');
+CheckVowel('Sarng Uri');

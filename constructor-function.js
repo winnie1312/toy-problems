@@ -11,7 +11,7 @@ console.log(peter.say());
 
 //vd2
 
-function check(x,y,z){
+function Check(x,y,z){
   this.first =x;
   this.second =y;
   this.third =z;
@@ -20,5 +20,5 @@ function check(x,y,z){
   }
 }
 
-let num = new check(1,2,4);
+let num = new Check(1,2,4);
 console.log(num.average());
