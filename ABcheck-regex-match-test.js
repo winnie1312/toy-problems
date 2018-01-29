@@ -1,4 +1,4 @@
-let AbCheck =(str)=> {
+function AbCheck (str) {
   //c1 : match(/.../)--> return array
   return str.match(/[a](...)[b]|[b](...)[a]/gi) !== null;
 
